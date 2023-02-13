@@ -1,0 +1,433 @@
+/*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/
+
+.divcss {
+  width: 75%;
+  height: 80%;
+  background: rgba(0, 0, 0, 0.930);
+  position: absolute;
+  left: 50%;
+  top: 54%;
+  transform: translate(-50%, -50%);
+  border: 0.1rem solid #fff;
+  box-shadow: inset 0 0 1.3rem #bc13fe; 
+}
+
+.div1css {
+  width: 250px;
+  height: 250px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.div1csst {
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  font-size: 25px;
+  width: 210px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div1cssd {
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  width: 210px;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#imgcss1 {
+  filter: blur(1px);
+  -webkit-filter: blur(1.5px);
+}
+
+#bdcss1 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#botao1 {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  padding-left: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 80%;
+  left: 50%;
+  color: white;
+  transition: 0.3s;
+  padding: 10px;
+  font-size: 13px;
+  background-color: black;
+  text-align: center;
+}
+
+#botao1:hover {
+  transition: 0.5s;
+  background-color: red;
+  border-radius: 7px;
+  color: white;
+}
+
+.div2css {
+  width: 250px;
+  height: 250px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.div2csst {
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  font-size: 25px;
+  width: 210px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div2cssd {
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  width: 210px;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#imgcss2 {
+  filter: blur(1px);
+  -webkit-filter: blur(1.5px);
+}
+
+#bdcss2 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#botao2 {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  padding-left: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 80%;
+  left: 50%;
+  color: white;
+  transition: 0.3s;
+  padding: 10px;
+  font-size: 13px;
+  background-color: black;
+  text-align: center;
+}
+
+#botao2:hover {
+  transition: 0.5s;
+  background-color: red;
+  border-radius: 7px;
+  color: white;
+}
+
+.div3css {
+  width: 250px;
+  height: 250px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  top: 25%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.div3csst {
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  font-size: 25px;
+  width: 210px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div3cssd {
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  width: 210px;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#imgcss3 {
+  filter: blur(1px);
+  -webkit-filter: blur(1.5px);
+}
+
+#bdcss3 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#botao3 {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  padding-left: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 80%;
+  left: 50%;
+  color: white;
+  transition: 0.3s;
+  padding: 10px;
+  font-size: 13px;
+  background-color: black;
+  text-align: center;
+}
+
+#botao3:hover {
+  transition: 0.5s;
+  background-color: red;
+  border-radius: 7px;
+  color: white;
+}
+
+.div4css {
+  width: 250px;
+  height: 250px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  top: 75%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.div4csst {
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  font-size: 25px;
+  width: 210px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div4cssd {
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  width: 210px;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#imgcss4 {
+  filter: blur(1px);
+  -webkit-filter: blur(1.5px);
+}
+
+#bdcss4 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#botao4 {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  padding-left: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 80%;
+  left: 50%;
+  color: white;
+  transition: 0.3s;
+  padding: 10px;
+  font-size: 13px;
+  background-color: black;
+  text-align: center;
+}
+
+#botao4:hover {
+  transition: 0.5s;
+  background-color: red;
+  border-radius: 7px;
+  color: white;
+}
+
+.div5css {
+  width: 250px;
+  height: 250px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.div5csst {
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  font-size: 25px;
+  width: 210px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div5cssd {
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  width: 210px;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#imgcss5 {
+  filter: blur(1px);
+  -webkit-filter: blur(1.5px);
+}
+
+#bdcss5 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#botao5 {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  padding-left: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 80%;
+  left: 50%;
+  color: white;
+  transition: 0.3s;
+  padding: 10px;
+  font-size: 13px;
+  background-color: black;
+  text-align: center;
+}
+
+#botao5:hover {
+  transition: 0.5s;
+  background-color: red;
+  border-radius: 7px;
+  color: white;
+}
+
+.div6css {
+  width: 250px;
+  height: 250px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  top: 75%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.div6csst {
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  font-size: 25px;
+  width: 210px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div6cssd {
+  position: absolute;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  width: 210px;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#imgcss6 {
+  filter: blur(1px);
+  -webkit-filter: blur(1.5px);
+}
+
+#bdcss6 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#botao6 {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  padding-left: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 80%;
+  left: 50%;
+  color: white;
+  transition: 0.3s;
+  padding: 10px;
+  font-size: 13px;
+  background-color: black;
+  text-align: center;
+}
+
+#botao6:hover {
+  transition: 0.5s;
+  background-color: red;
+  border-radius: 7px;
+  color: white;
+}

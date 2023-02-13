@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+/*BACKGROUND IMAGE*/
+main {
+    background: url("../images/fundo.jpg") no-repeat center center;
+    background-size: cover;
+    height: 92%;
+  }
+
+/*CORPO HTML*/
+body {
+    color: black;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+  }
+
+/*MENU BAR*/ /*MENU BAR*/ /*MENU BAR*/ /*MENU BAR*/ /*MENU BAR*/ /*MENU BAR*/ /*MENU BAR*/ /*MENU BAR*/ /*MENU BAR*/ /*MENU BAR*/ /*MENU BAR*/ /*MENU BAR*/
+
+/*COMEÇO DA LISTA NAV*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial;
+    background: black;
+    height: 8vh;
+  }
+
+/*Adicionar e ajustar a barra de navegação*/
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+/*Animação nos botões da barra de navegação*/
+.menubar:hover {
+    transition: 0.5s;
+    background-color: red;
+    border-radius: 10px;
+  }
+
+/*Ajustar estilo da barra de navegação*/
+.links {
+    display: flex;
+    position: absolute;
+    left: 49.2%;
+    top: 3.7%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+  }
+  
+/*Ajustar estilo da barra de navegação ( LI )*/
+.links li {
+    letter-spacing: 2px;
+    margin-left: 30px;
+  }
+
+/*Barra de Pesquisa*/
+.search-box {
+    background: white;
+    height: 25px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    margin-right: 20px;
+    position: absolute;
+    right: 5%;
+  }
+  
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-size: 13px;
+    margin-left: 10px;
+    line-height: 70px;
+    width: 0;
+    transition: 0.3s;
+  }
+  
+::-webkit-input-placeholder {
+    color: black;
+  }
+  
+.search-btn {
+    width: 15px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    transition: 0.3s; 
+  }
+  
+.search-box:hover > .search-txt {
+    width: 200px;
+  }
+  
+.search-box:hover > .search-btn {
+    background: black;
+  }
+
+/*LOGO DO SITE*/ /*LOGO DO SITE*/ /*LOGO DO SITE*/ /*LOGO DO SITE*/ /*LOGO DO SITE*/ /*LOGO DO SITE*/ /*LOGO DO SITE*/ /*LOGO DO SITE*/ /*LOGO DO SITE*/ /*LOGO DO SITE*/ 
+
+/*Ajustar texto da logo*/
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: fixed;
+    left: 10%;
+  }
+  
+/*LOGO DO SITE*/
+#logodosite {
+    position: absolute;
+    margin-top: 0.56%;
+    margin-left: 10px;
+    top: 50%;
+    left: -25%;
+    transform: translate(-50%, -50%);
+  }
+
+/* ODS UTILIZADA */ /* ODS UTILIZADA */ /* ODS UTILIZADA */ /* ODS UTILIZADA */ /* ODS UTILIZADA */ /* ODS UTILIZADA */ /* ODS UTILIZADA */ /* ODS UTILIZADA */ 
+
+/*ODS*/
+.odsimg {
+  float: right;
+}
+
+.odsdiv {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.odstext {
+  padding: 15px 15px 15px 15px;
+  width: 500px;
+  height: 57px;
+  background: black;
+  border-radius: 2px;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  right: 100%;
+  position: absolute;
+}

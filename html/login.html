@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Devschool - Login</title>
+	<link rel="stylesheet" href="../css/logincss.css"/>
+	<link rel="stylesheet" href="../css/geral.css" />
+	<link rel="shortcut icon" href="../images/miniimg.png">
+	<script type="text/javascript" src="../js/jslogin.js"></script>
+</head>
+<body>
+	<header>
+      <nav>
+        <a class="logo" href="./../index.html"><img id="logodosite" src="../images/logo.png" alt="Logo do site">DEVSCHOOL</a>
+        <ul class="links">
+          <li><a href="../index.html" class="menubar">Início</a></li>
+          <li><a href="#" class="menubar">Sobre</a></li>
+          <li><a href="../html/login.html" class="menubar">Login</a></li>
+        </ul>
+		<div class="search-box">
+			<input type="search" name="" class="search-txt" placeholder="Pesquise..." >
+			<a href="#">
+			  <img src="../images/lupinha.svg" alt="Lupa" class="search-btn">
+			</a> 
+		</div>
+      </nav>
+    </header>
+	<header>
+	<div class="login">
+		<form name="login" id="login" method="POST" enctype="multipart/form-data" onsubmit="return valida()">
+			<label>
+				<b>Email: </b><div id="erroEmail"></div>
+			</label>
+			<input id="email" placeholder="Insira o Email..." type="email" name="email">
+			<br><br>
+			<label>
+				<b>Senha: </b><div id="erroSenha"></div>
+			</label>
+			<input id="senha" placeholder="Insira a Senha..." type="password" name="senha">
+			<br><br>
+			<input type="submit" name="entrar" id="login2" value="Entrar" formaction="../index.html">
+			<div id="loginbotao2">Precisa de uma conta? <a id="loginbotao" href="registro.html">Crie a sua aqui!</a>
+			</div>
+		</form>
+		</header>
+	</div>
+	<div class="odsdiv">
+      <div class="odsimg">
+        <img src="../images/ods4.png" />
+      </div>
+      <div class="odstext">
+        <b>ODS 4 – Educação de qualidade:</b> assegurar a educação inclusiva, equitativa e de qualidade, e promover oportunidades de aprendizagem ao longo da vida para todos.
+      </div>
+    </div>
+	<main></main>
+</body>
+</html>

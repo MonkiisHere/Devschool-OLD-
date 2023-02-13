@@ -1,0 +1,120 @@
+/*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/
+
+/*Ajustar as divs de JS, CSS, HTML*/
+.divmeio {
+    text-align: center;
+    font-family: Arial;
+    font-size: 50px;
+    color: white;
+  }
+  
+/*Ajustar botão de play JS*/
+#botao1 {
+    width: 120px;
+    height: 60px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    text-align: center;
+  }
+  
+/*Ajustar botão de play CSS*/
+#botao2 {
+    width: 120px;
+    height: 60px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    text-align: center;
+  }
+  
+/*Ajustar botão de play HTML*/
+#botao3 {
+    width: 120px;
+    height: 60px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    text-align: center;
+  }
+  
+/*Ajustar efeitos do botão de play JS*/
+#botao1:hover {
+    transition: 1s;
+    background-color: red;
+    border-radius: 7px;
+  }
+  
+/*Ajustar efeitos do botão de play CSS*/
+#botao2:hover {
+    transition: 1s;
+    background-color: red;
+    border-radius: 7px;
+  }
+  
+/*Ajustar efeitos do botão de play HTML*/
+#botao3:hover {
+    transition: 1s;
+    background-color: red;
+    border-radius: 7px;
+  }
+  
+/*Ajustar texto da index JS*/
+#div1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 25%;
+  }
+  
+/*Ajustar texto da index CSS*/
+#div2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  
+/*Ajustar texto da index HTML*/
+#div3 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 75%;
+  }

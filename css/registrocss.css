@@ -1,0 +1,72 @@
+/*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/ /*BODY DO HTML*/
+
+/*Adicionar e ajustar a fonte do Login*/
+label {
+    font-size: 17px;
+    color: black;
+    font-family: Arial;
+  }
+
+/*Ajustar textos do erro ao efetuar o login*/
+#erroEmail, #erroSenha, #erroData {
+    font-size: 15px;
+    font-style: italic;
+    color: red;
+  }
+  
+/*Ajustar a tela de login*/
+.login {
+    padding: 40px;
+    background: white;
+    box-shadow: 2px 2px red;
+    border-radius: 10px;
+    width: 330px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  
+/*Ajustar o textbox do login*/
+#email, #senha {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    padding-left: 30px;
+    background-color: #d8d8d8;
+    border: 1px solid gray;
+  }
+
+#email:hover, #senha:hover {
+    border-color: black;
+  }
+
+/*Ajustar botão de login*/
+#login2 {
+    width: 332px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+  }
+  
+/*Ajustar efeitos do botão de login*/
+#login2:hover {
+    transition: 1s;
+    background-color: red;
+  }
+
+/*login botao*/
+#registrobotao {
+    color: red;
+    font-family: Arial;
+    font-size: 15px;
+  }
+  
+#registrobotao2 {
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 20px;
+  }
